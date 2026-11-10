@@ -1,0 +1,19 @@
+# Main pipeline environment — 2D landmarks, DAD-3DHeads, depth/surface,
+# GPA averageness, and the modeling stage.
+# Create with: conda create -n attractiveness-pipeline python=3.10 && \
+#              conda activate attractiveness-pipeline && \
+#              pip install -r requirements-pipeline.txt
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python
+open3d
+face-alignment
+insightface
+onnxruntime
+torch
+torchvision
+matplotlib
+xgboost
+shap

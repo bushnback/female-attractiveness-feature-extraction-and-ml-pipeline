@@ -1,0 +1,17 @@
+# Derived (vision-model) feature environment — all CLIP/SigLIP2-based
+# stages: skin quality, femininity, neoteny, adiposity, glasses,
+# tattoo/piercing, hair colour/length.
+# Create with: conda create -n attractiveness-clip python=3.10 && \
+#              conda activate attractiveness-clip && \
+#              pip install -r requirements-clip-stages.txt
+#
+# Model weights are NOT listed here — open_clip downloads each model
+# automatically into ~/.cache on first use, and quality.py in the skin
+# stage downloads its MediaPipe face landmarker model automatically too.
+numpy
+opencv-python
+pillow
+torch
+torchvision
+open_clip_torch
+mediapipe

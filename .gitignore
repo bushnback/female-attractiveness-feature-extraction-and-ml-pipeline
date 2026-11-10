@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# Your dropped-in photos and all generated output — never commit these
+input/*
+!input/README.md
+output/
+work/

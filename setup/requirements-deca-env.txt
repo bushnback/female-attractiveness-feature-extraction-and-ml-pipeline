@@ -1,0 +1,13 @@
+# DECA 3D mesh reconstruction environment.
+# pytorch3d is notoriously version-sensitive — install torch/torchvision
+# FIRST, then build pytorch3d against them (see README.md in this folder).
+#
+# Create with: conda create -n deca-env python=3.9 && conda activate deca-env
+#   pip install torch torchvision
+#   pip install "git+https://github.com/facebookresearch/pytorch3d.git"
+#   pip install -r requirements-deca-env.txt
+numpy
+opencv-python
+scikit-image
+chumpy
+yacs
