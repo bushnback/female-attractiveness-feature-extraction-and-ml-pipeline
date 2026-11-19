@@ -1,6 +1,6 @@
 # Female Facial Attractiveness Feature Extraction Pipeline
 
-Extracts ~150+ interpretable 2D/3D geometric and vision-model features
+Extracts 169 interpretable 2D/3D geometric and vision-model features
 from a folder of face photos, producing a single `ml_features.csv` ready
 for modelling — plus an optional Lasso/ElasticNet/XGBoost+SHAP/Cohen's d
 modeling stage if you supply attractiveness labels.
